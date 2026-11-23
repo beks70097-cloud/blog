@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner {
+  width: 60%;
+  margin: 0 auto;
+  background-color: rgb(250, 248, 248);
+  padding: 30px 60px 30px 60px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+#header {
+  .header {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+  }
+  font-size: 20px;
+}
+
+.heroNav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .one {
+    h1 {
+      font-family: Heebo;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 100%;
+      letter-spacing: 0px;
+    }
+    .text {
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      gap: 12px;
+      h3 {
+        width: 62px;
+        height: 25px;
+        top: 1141px;
+        left: 410px;
+        background-color: #ff7c7c;
+        color: white;
+        border-radius: 16px;
+        padding-left: 12px;
+      }
+      h4 {
+        font-family: Heebo;
+        font-weight: 400;
+        font-size: 20px;
+        color: #8695a4;
+        line-height: 100%;
+        letter-spacing: 0px;
+      }
+    }
+  }
+  .two {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    h1 {
+      font-family: Heebo;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 60px;
+      letter-spacing: 0px;
+      margin-top: 50px;
+    }
+    h2 {
+      font-family: Heebo;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 60px;
+      letter-spacing: 0px;
+    }
+    p {
+      font-family: Heebo;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+
+  .footerNav {
+    display: flex;
+    gap: 20px;
+  }
+  .footerNiv {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    a {
+      font-family: Heebo;
+      font-weight: 400;
+      font-size: 14px;
+      color: #21243D;
+      line-height: 100%;
+      letter-spacing: 0px;
+      text-align: center;
+      
+    }
+  }
+}  
